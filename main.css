@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: 'Andy';
+    src: url('fonts/ANDYB') format('truetype');
+}
+
 .bungee-regular {
     font-family: "Bungee", serif;
     font-weight: 400;
@@ -33,7 +38,7 @@ body, input, text area {
 
 header{
     padding: 16px 0;
-    background-color: #182C61;
+    background-color: #229e36;
     color: #ecf0f1;
 }
 
@@ -87,7 +92,7 @@ section h2 {
 }
 
 section {    
-    color: #182C61;
+    color: #229e36;
 }
 
 section p {
@@ -139,23 +144,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
+    background-color: #229e36;
     color:#ecf0f1;
-    ;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #3152ad;
+    background-color: #229e36;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #229e36;
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #229e36;
     color: #ecf0f1;
     padding: 16px 0;
 }
